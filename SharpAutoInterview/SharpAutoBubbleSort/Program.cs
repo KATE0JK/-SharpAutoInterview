@@ -1,6 +1,6 @@
 ﻿// using System;
 //
-// namespace SharpAutoInterview 
+// namespace SharpAutoBubbleSort 
 // {
 //     internal static class Program
 //     {

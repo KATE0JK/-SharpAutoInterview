@@ -1,6 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpAutoInterview", "SharpAutoInterview\SharpAutoInterview.csproj", "{C2CFBFA3-127F-4654-8EBF-29EA3C937D3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpAutoBubbleSort", "SharpAutoBubbleSort\SharpAutoBubbleSort.csproj", "{C2CFBFA3-127F-4654-8EBF-29EA3C937D3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadFile", "ReadFile\ReadFile.csproj", "{606F1F09-E07F-49D8-99A1-2E2A5E17188C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringTasks", "StringTasks\StringTasks.csproj", "{3D141696-1F36-4BE4-91CC-D73FC6CF19F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxAndMin", "MaxAndMin\MaxAndMin.csproj", "{14469D55-1380-432D-90A0-4C4409A0831D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateAndTime", "DateAndTime\DateAndTime.csproj", "{0B408B2E-996D-4BCB-AD84-30D221442240}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +20,21 @@ Global
 		{C2CFBFA3-127F-4654-8EBF-29EA3C937D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2CFBFA3-127F-4654-8EBF-29EA3C937D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2CFBFA3-127F-4654-8EBF-29EA3C937D3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{606F1F09-E07F-49D8-99A1-2E2A5E17188C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{606F1F09-E07F-49D8-99A1-2E2A5E17188C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{606F1F09-E07F-49D8-99A1-2E2A5E17188C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{606F1F09-E07F-49D8-99A1-2E2A5E17188C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D141696-1F36-4BE4-91CC-D73FC6CF19F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D141696-1F36-4BE4-91CC-D73FC6CF19F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D141696-1F36-4BE4-91CC-D73FC6CF19F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D141696-1F36-4BE4-91CC-D73FC6CF19F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14469D55-1380-432D-90A0-4C4409A0831D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14469D55-1380-432D-90A0-4C4409A0831D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14469D55-1380-432D-90A0-4C4409A0831D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14469D55-1380-432D-90A0-4C4409A0831D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B408B2E-996D-4BCB-AD84-30D221442240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B408B2E-996D-4BCB-AD84-30D221442240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B408B2E-996D-4BCB-AD84-30D221442240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B408B2E-996D-4BCB-AD84-30D221442240}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

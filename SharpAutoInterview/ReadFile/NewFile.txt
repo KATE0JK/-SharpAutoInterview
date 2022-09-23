@@ -1,0 +1,3 @@
+The ReadAllLines() method takes the path of the file to be read and the encoding of the file(optional). The method reads a text file into an array of strings where each line in the file is one element in the array. 
+
+Take a look at the code below to see how ReadAllLines can be used.
