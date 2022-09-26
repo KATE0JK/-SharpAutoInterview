@@ -15,9 +15,9 @@ namespace SharpAutoInterview
         //bubble sort method
         public static int[] SortBubble(int[] array)
         {
-            for (var i = 0; i < array.Length; i++)
+            for (var i = 0; i < array.Length - 1; i++)
             {
-                for (var j = 0; j < array.Length - 1; j++)
+                for (var j = 0; j < array.Length - 1 - i; j++)
                 {
                     if (array[j] > array[j + 1])
                     {

@@ -1,3 +1,28 @@
 The ReadAllLines() method takes the path of the file to be read and the encoding of the file(optional). The method reads a text file into an array of strings where each line in the file is one element in the array. 
 
 Take a look at the code below to see how ReadAllLines can be used.
+
+public static class String
+{
+    public static string ToUpper(string s)
+    {
+        string upperString = "";
+        //Dictionary <char,char> dictionary = new Dictionary<char, char>() {{'a', 'A'}, {'b', 'B'}, {'c', 'C'}..};
+        foreach (char e in s)
+        {
+            if(abc.Contains(e))
+            {
+             char upperChar = dictionary[e];
+            }
+            
+            upperString = upperSrting + ch;
+        }
+        
+        return upperString;
+    }
+}
+
+class Class 2
+{
+    string str = "asd"
+}

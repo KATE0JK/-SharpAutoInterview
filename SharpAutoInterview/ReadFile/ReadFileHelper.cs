@@ -19,7 +19,7 @@ public class ReadFileHelper
                 writer.WriteLine(array[i]);
             }
 
-            using (StreamReader reader = new StreamReader(File.Open(@"./" + newFile, FileMode.Open)))
+            using (StreamReader reader = new StreamReader(File.Open(@"./" + newFile, FileMode.Append)))
             {
                 var line = reader.ReadLine();
             }

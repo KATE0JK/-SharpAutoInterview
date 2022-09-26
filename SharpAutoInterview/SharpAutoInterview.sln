@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxAndMin", "MaxAndMin\MaxA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateAndTime", "DateAndTime\DateAndTime.csproj", "{0B408B2E-996D-4BCB-AD84-30D221442240}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirTasks", "DirTasks\DirTasks.csproj", "{9086DF67-60DE-433F-AA18-217069CABFC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AInterviewTasks", "AInterviewTasks\AInterviewTasks.csproj", "{419CD34D-FA5A-44C8-BED7-2FF429C2BBB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{0B408B2E-996D-4BCB-AD84-30D221442240}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B408B2E-996D-4BCB-AD84-30D221442240}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B408B2E-996D-4BCB-AD84-30D221442240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9086DF67-60DE-433F-AA18-217069CABFC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9086DF67-60DE-433F-AA18-217069CABFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9086DF67-60DE-433F-AA18-217069CABFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9086DF67-60DE-433F-AA18-217069CABFC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{419CD34D-FA5A-44C8-BED7-2FF429C2BBB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419CD34D-FA5A-44C8-BED7-2FF429C2BBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419CD34D-FA5A-44C8-BED7-2FF429C2BBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419CD34D-FA5A-44C8-BED7-2FF429C2BBB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

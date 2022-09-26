@@ -1,0 +1,22 @@
+public static class String
+{
+    public static string ToUpper(string s)
+    {
+        string upperString = "";
+        foreach (char e in s)
+        {
+            Abc abs = new Abc();
+            
+            char ch = abc.ToUpper(e);
+            
+            upperString = upperSrting + ch;
+        }
+        
+        return upperString;
+    }
+}
+
+class Class 2
+{
+    string str = "asd"
+}
