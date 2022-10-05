@@ -12,4 +12,9 @@
       <Compile Remove="test.cs" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="NUnit" Version="3.13.3" />
+      <PackageReference Include="Selenium.Support" Version="4.4.0" />
+    </ItemGroup>
+
 </Project>

@@ -1,0 +1,39 @@
+121, 1221, aba
+
+public bool IsPalindrome(string str)
+{
+    for(i = 0; i < srt.Length/2; i++)
+    {
+        if(srt[i] != str[str.Length - 1 -i])
+        {
+            return false;
+        }
+    }
+    
+    return true;
+}
+
+public int GetIndex(char[] array, char symbol)
+{
+    int length = array.Length/2;
+    
+    for(i = 0; i < length; i++)
+    
+    {
+        if(symbol == array[i])
+        {
+            return i;
+        }
+        if(symbol > array[i])
+        {
+            i = array.length/2
+            length = array.length/2
+        }
+        else
+        {
+            length = array.length/2;
+        }
+    }
+    
+    throw new Exception($"")
+}

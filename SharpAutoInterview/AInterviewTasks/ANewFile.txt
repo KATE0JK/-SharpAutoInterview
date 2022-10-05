@@ -1,0 +1,41 @@
+public void CleanFilesAndEmptySubDirectory(string rootPath)
+{
+    DirectoryInfo directory = new DirecroryInfo(rootPath);
+    
+    if(directory.Exist)
+    {
+        Fileinfo{} files = directory.GetFiles();
+        
+        if(files.Langth > 0)
+        {
+            foreach(var file in files)
+            {
+                File.Delete(file.FullName);
+            }
+        }
+    }
+    
+    CleanEmptySubDirectory();
+}
+
+private void CleanEmptySubDirectory(string rootPath)
+{
+    DirectoryInfo directory = new DirecroryInfo(rootPath);
+    
+    if(directory.Exist)
+    {
+        DirectoryInfo[] dirs = directory.GetDirectory();
+        
+        foreach (var dir in dirs)
+        {
+            CleanEmptySubDirectory(dir.FullName);
+            
+            FileInfo[] files = directory.GetFiles();
+            
+            if(files.Length == 0)
+            {
+                Directory.Delete(dir.FullName);
+            }
+        }
+    }
+}

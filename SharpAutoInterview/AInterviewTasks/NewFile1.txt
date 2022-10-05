@@ -1,0 +1,16 @@
+public string GetContent( string path, int timeout)
+{
+    var startDateTime = DateTime.Now();
+    var endDateTime = startDateTime.AddSeconds(timeout);
+    
+    do
+    {
+        if(File.Exists(path))
+        {
+            var content = File.ReadAllText(path);
+            return content
+        }
+    } while(DateTime.Now() < endDateTime)
+    
+    throw new FileNotFoundException("File is not found")
+}
