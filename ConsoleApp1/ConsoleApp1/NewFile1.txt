@@ -1,0 +1,24 @@
+public void OpenFile(string path, int timeoutSeconds)
+{
+    var startDateTime = DateTime.Now;
+    var endDateTime = startDateTime.AddSeconds(timeoutSecond);
+    
+    do
+    {
+        if(File.Exists(path))
+        {
+            try
+            {
+            File.Open()
+            //File.ReadAllText
+            }
+            catch(Exception e)
+            {
+                Log.Write(e.Message)
+            }
+        }
+        
+    }while(DateTime.Now < endDateTime)
+    
+    throw new FileNotFoundException($"File with {path} is not found via {timeoutSeconds} sec.")
+}
